@@ -1,0 +1,23 @@
+.sidebar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  height: 100vh;
+}
+
+.history-container {
+  flex: 1; /* Takes up the remaining space */
+  overflow-y: auto; /* Enables vertical scrolling */
+  max-height: calc(100vh - 50px); /* Adjust according to your design */
+}
+
+.resizer {
+  width: 5px;
+  background-color: #ccc;
+  cursor: ew-resize;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}

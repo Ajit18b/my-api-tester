@@ -1,0 +1,19 @@
+.history {
+    margin-top: 20px;
+  }
+  
+  .history-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .history-list li {
+    padding: 5px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .history-list li:hover {
+    background-color: #e9e9e9;
+  }
+  

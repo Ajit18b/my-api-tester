@@ -1,0 +1,39 @@
+.response-display {
+  background-color: #f4f4f9; /* Light gray background */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding inside the container */
+  width: 100%; /* Ensure full-width responsiveness */
+  max-width: 1250px; /* Set a wider max width */
+  margin: 0 auto; /* Center the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+  font-family: 'Courier New', Courier, monospace; /* Monospace font for JSON */
+}
+
+.response-display h3 {
+  margin-bottom: 10px; /* Space between title and timestamp */
+  font-size: 1.5rem; /* Increase font size of the title */
+  color: #333; /* Darker text color for the title */
+  text-align: center; /* Center the title */
+}
+
+.timestamp {
+  margin-bottom: 15px; /* Space between timestamp and content */
+  font-size: 0.9rem; /* Smaller font size for timestamp */
+  color: #666; /* Slightly lighter text color */
+  text-align: center; /* Center the timestamp */
+}
+
+.response-display pre {
+  background-color: #fff; /* White background for the JSON content */
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 5px; /* Slightly rounded corners */
+  padding: 15px; /* Padding inside the pre tag */
+  max-height: 400px; /* Maximum height for the scrollable area */
+  overflow-y: auto; /* Enable vertical scrolling */
+  font-size: 1rem; /* Set font size for JSON */
+  white-space: pre-wrap; /* Wrap long lines of text */
+  word-break: break-all; /* Break long words */
+  text-align: left; /* Align text and numbers to the left */
+  direction: ltr; /* Ensure left-to-right text direction */
+}
